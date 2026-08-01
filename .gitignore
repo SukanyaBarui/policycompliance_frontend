@@ -1,0 +1,118 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
+
+# ==========================================
+# IDE
+# ==========================================
+.vscode/
+.idea/
+*.swp
+
+# ==========================================
+# OS
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# React / Vite
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ==========================================
+# Python Build
+# ==========================================
+build/
+dist/
+
+# ==========================================
+# Uploaded Files
+# ==========================================
+backend/data/uploads/
+backend/data/remediated/
+backend/data/temp/
+backend/uploads/
+backend/temp/
+
+# ==========================================
+# ChromaDB
+# ==========================================
+backend/chroma/
+backend/chromadb/
+backend/vector_db/
+backend/db/
+
+# ==========================================
+# SQLite
+# ==========================================
+*.sqlite3
+*.db
+
+# ==========================================
+# Cache
+# ==========================================
+.cache/
+
+# ==========================================
+# Coverage
+# ==========================================
+.coverage
+htmlcov/
+
+# ==========================================
+# Misc
+# ==========================================
+*.bak
+*.tmp
+
+# Data
+backend/data/
+
+# Chroma
+backend/data/chroma/
+
+# SQLite
+backend/data/*.sqlite
+backend/data/*.db
+
+# Generated Reports
+backend/data/remediated/
+backend/data/uploads/
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+backend/Evaluation/confusion_matrix.png
+*.log
+logs/

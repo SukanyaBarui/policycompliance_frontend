@@ -69,7 +69,7 @@ const REG_LABEL = {
   internal_hr: "Internal HR",
 };
 const CAT_COLORS = [CAP.purple, CAP.cyan, CAP.teal, CAP.orange, CAP.blue];
-const BASE = "/api";
+const BASE = "https://policycompliance-backend.onrender.com/api";
 
 const LS = {
   get: (k, def=[]) => { try { return JSON.parse(localStorage.getItem(k)) ?? def; } catch { return def; }},

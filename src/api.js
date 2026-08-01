@@ -2,7 +2,7 @@
 // path to the backend (see vite.config.js), so no env var is needed.
 // In Docker / any static build, there's no dev-server proxy, so we must
 // hit the backend directly via VITE_API_BASE (set in docker-compose.yml).
-const BASE = import.meta.env.VITE_API_BASE || "/api";
+const BASE = "https://policycompliance-backend.onrender.com/api";
 
 function authHeaders(isJson = false) {
     const token = localStorage.getItem("token");

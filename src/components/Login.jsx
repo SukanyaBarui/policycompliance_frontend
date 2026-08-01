@@ -2,10 +2,10 @@ import { useState } from "react";
 import { ShieldCheck, Mail, Lock, LogIn, KeyRound, ArrowLeft, Loader2, AlertCircle, CheckCircle2 } from "lucide-react";
 import { GoogleLogin } from "@react-oauth/google";
 
-const BASE =
+const BASE = 
   import.meta.env.VITE_API_BASE ||
   "https://policy-compliance-checker.onrender.com/api";
-
+  
 // Matches the ivory / antique-gold brand palette used across the rest of
 // the app (see AppFull.jsx `CAP`), kept local here since the login screen
 // renders before the authenticated app (and its theme system) mounts.

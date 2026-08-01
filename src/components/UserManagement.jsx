@@ -7,7 +7,7 @@ import {
   RefreshCw,
 } from "lucide-react";
 
-const BASE = "/api";
+const BASE = "https://policycompliance-backend.onrender.com/api";
 
 // Same ivory/gold palette as AppFull.jsx's CAP — duplicated locally since
 // CAP isn't exported (same pattern Login.jsx already uses for the same

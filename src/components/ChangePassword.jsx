@@ -7,7 +7,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 
-const BASE = "/api";
+const BASE = "https://policycompliance-backend.onrender.com/api";
 
 const C = {
   bg: "#FAF7F2",

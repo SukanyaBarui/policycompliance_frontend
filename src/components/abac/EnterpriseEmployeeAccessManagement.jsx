@@ -88,9 +88,9 @@ export default function EnterpriseEmployeeAccessManagement({ token, CAP: incomin
   setLoading(true);
   try {
     const [empRes, clRes, regRes] = await Promise.all([
-      apiFetch("/v1/employee-access/employees", { token }),
-      apiFetch("/v1/employee-access/clearance-levels", { token }),
-      apiFetch("/v1/employee-access/regulations", { token }),
+      apiFetch("api/v1/employee-access/employees", { token }),
+      apiFetch("api/v1/employee-access/clearance-levels", { token }),
+      apiFetch("api/v1/employee-access/regulations", { token }),
     ]);
 
     setEmployees(empRes || []);

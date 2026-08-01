@@ -167,10 +167,12 @@
 const PRODUCTION_API_BASE =
     "https://policy-compliance-checker.onrender.com/api";
 
-const BASE = (
-    import.meta.env.VITE_API_BASE ||
-    (import.meta.env.DEV ? "/api" : PRODUCTION_API_BASE)
-).replace(/\/+$/, "");
+// const BASE = (
+//     import.meta.env.VITE_API_BASE ||
+//     (import.meta.env.DEV ? "/api" : PRODUCTION_API_BASE)
+// ).replace(/\/+$/, "");
+
+const BASE = PRODUCTION_API_BASE;
 
 /**
  * Builds a complete API URL.
